@@ -82,6 +82,7 @@ public abstract class HippyEngine {
     if (params == null) {
       throw new RuntimeException("Hippy: initParams must no be null");
     }
+    //dasdasdas
     LibraryLoader.loadLibraryIfNeed(params.soLoader);
     if (sLogAdapter == null && params.logAdapter != null) {
       setNativeLogHandler(params.logAdapter);
